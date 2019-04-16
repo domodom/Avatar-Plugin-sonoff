@@ -1,0 +1,36 @@
+{
+  "modules": {
+    "sonoff": {
+      "description": "Commandes Vocales pour controler vos modules SonOff",
+      "version": "1.3",
+      "debug": true,
+      "node": {
+        "displayNode": true,
+        "delNodeAfterCommand": false
+      },
+      "rules": {
+        "turn_on": ["light", "turn on", "switch on", "open"],
+        "turn_off": ["turn off", "switch off", "close "]
+      },
+      "devices": {
+        "bureau": {
+          "chevet": {
+            "user": "admin",
+            "password": "",
+            "ip": "192.168.x.x",
+            "icone": "chevet"
+          }
+        },
+        "chambre": {
+          "chevet": {
+            "user": "admin",
+            "password": "password",
+            "ip": "192.168.x.x",
+            "icone": "pc"
+          }
+        }
+      },
+      "active": true
+    }
+  }
+}

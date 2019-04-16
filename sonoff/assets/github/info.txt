@@ -1,5 +1,5 @@
-Contrôlez vos modules domotique SonOff !
+ContrÃ´lez vos modules domotique SonOff !
 
 - Allumer / Eteindre vos modules
 - Affichage du module sur l'interface serveur
-- Contrôle du module via l'interface
+- ContrÃ´le du module via l'interface
